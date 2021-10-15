@@ -6,7 +6,7 @@ const StoryPage2 = () => {
   return (
     <div className="story-pg-2 storypg">
       <div className="story-pg-2__elipse elipse">
-        <img src={lady} alt="lady" className="story-pg-2__woman" />
+        <img src={lady} alt="lady" className="story-pg-2__lady" />
       </div>
       <div className="story-pg-2__left-container write-up">
         <h2 className="title">Josiah’s Experience</h2>
