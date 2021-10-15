@@ -1,0 +1,20 @@
+.story-pg-1 {
+  background: $color-dark-4;
+
+  &__elipse {
+    background-color: $color-dark-1;
+  }
+
+  &__right-container {
+    float: right;
+    color: $color-white;
+  }
+
+  &__rounded-block {
+    border: 0.1rem solid rgba($color-white, 0.4);
+  }
+
+  &__share {
+    color: white;
+  }
+}

@@ -1,8 +1,10 @@
 .landing-page {
   width: 100vw;
-  height: 50.4rem;
-  margin: 10rem 0 0 17rem;
+  height: 60.4rem;
+  margin-left: 17rem;
   font-family: "Inter", sans-serif;
+  padding-top: 10rem;
+  overflow: hidden;
 
   &__left-container {
     display: inline-block;
