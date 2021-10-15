@@ -1,0 +1,33 @@
+.story-pg-2 {
+  background: $color-orange-2;
+  color: $color-dark-5;
+
+  &__elipse {
+    background-color: rgba($color-orange-1, 0.03);
+    top: 6.9rem;
+    right: 10rem;
+    float: right;
+  }
+
+  &__left-container {
+    float: left;
+    left: 12.6rem;
+  }
+
+  &__lady {
+    position: relative;
+    width: 62.2rem;
+    height: 53.8rem;
+    top: 2.9rem;
+    left: 4.6rem;
+  }
+
+  &__rounded-block {
+    border: 0.1rem solid $color-orange-1;
+    color: $color-orange-1;
+  }
+
+  &__share {
+    color: $color-orange-1;
+  }
+}
