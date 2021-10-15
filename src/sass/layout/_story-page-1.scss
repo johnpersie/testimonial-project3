@@ -1,13 +1,17 @@
 .story-pg-1 {
   background: $color-dark-4;
+  color: $color-white;
 
   &__elipse {
     background-color: $color-dark-1;
+    top: 6.4rem;
+    left: 12.3rem;
+    float: left;
   }
 
   &__right-container {
     float: right;
-    color: $color-white;
+    right: 12.6rem;
   }
 
   &__rounded-block {
@@ -15,6 +19,6 @@
   }
 
   &__share {
-    color: white;
+    color: $color-white;
   }
 }
