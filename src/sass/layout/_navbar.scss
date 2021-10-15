@@ -1,0 +1,24 @@
+.navbar {
+    border-top: 0.1rem solid #00000014;
+    border-bottom: 0.1rem solid #00000014;
+    box-shadow: 1px 4px 4px #0000000a;
+  
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      margin: 0 24.7rem;
+  
+      li {
+        padding: 1.7rem 1.6rem;
+  
+        a {
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: 1.3rem;
+          text-decoration: none;
+          color: #000000;
+        }
+      }
+    }
+}
