@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import StoryPage1 from "./components/StoryPage1";
 import StoryPage2 from "./components/StoryPage2";
+import CallToAction from "./components/CallToAction";
 // import Grid from "./components/Grid";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <LandingPage />
       <StoryPage1 />
       <StoryPage2 />
+      <CallToAction />
       {/* <Grid /> */}
     </div>
   );
