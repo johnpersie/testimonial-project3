@@ -4,7 +4,7 @@ import LandingPage from "./components/LandingPage";
 import StoryPage1 from "./components/StoryPage1";
 import StoryPage2 from "./components/StoryPage2";
 import CallToAction from "./components/CallToAction";
-// import Grid from "./components/Grid";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <StoryPage1 />
       <StoryPage2 />
       <CallToAction />
-      {/* <Grid /> */}
+      <Footer />
     </div>
   );
 }
