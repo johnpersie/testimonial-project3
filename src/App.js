@@ -3,8 +3,10 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import StoryPage1 from "./components/StoryPage1";
 import StoryPage2 from "./components/StoryPage2";
+import Testifiers from "./components/testifier/Testifiers";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Navbar />
       <LandingPage />
       <StoryPage1 />
+      <Testifiers />
       <StoryPage2 />
       <CallToAction />
       <Footer />
