@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Testifieritem2 from './Testifieritem2'
 
 class Testifiers2 extends Component {
     state = {
@@ -30,7 +31,7 @@ class Testifiers2 extends Component {
             {
                 id: "3",
                 avatar_pic: "avatar2-pics/Ellipse 24.png",
-                userName: "Feyisola Arinola",
+                content: "Feyisola Arinola",
                 title: "vendor",
                 textContent: <p>
                                 Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -82,11 +83,24 @@ class Testifiers2 extends Component {
     }
     render() {
         return (
-            <div>
-                
+            <div style={structure}>
+                <div style={testifierStyle}>
+                 {this.state.contents.map( user => (
+                    <Testifieritem2 key={user.id} user={user} />
+                 ))}
+                </div>
             </div>
         )
     }
+}
+
+const structure = {
+    margin: "8rem 8.5rem"
+}
+const testifierStyle = {
+    display: "grid",
+    gridTemplateColumns: "repeat(3, 1fr)",
+    gridGap: "1rem"
 }
 
 export default Testifiers2

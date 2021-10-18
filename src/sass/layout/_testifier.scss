@@ -23,18 +23,29 @@
       font-weight: 500;
       font-size: 15px;
       margin-top: 1rem;
+
+      &--card__title {
+        font-family: "inter";
+        display: inline-block;
+        color: #049A01;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        border-radius: 0.4rem;
+        padding: 0.4rem 0.8rem;
+        background-color: #EEF8FF;
+
+      }
     }
     &__post {
       font-family: "inter";
       color: #049A01;
       display:inline-block;
-      font-size: 13px;
+      font-size: 1.3rem;
       text-transform: uppercase;
       border-radius: 0.4rem;
       padding: 0.4rem 0.8rem;
       background-color: #EEF8FF;
-      ;
-      margin-left: 2rem; 
+      margin-left: 2rem;
     }
     &__content {
       margin: 3rem 0;

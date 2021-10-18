@@ -6,6 +6,7 @@ import StoryPage2 from "./components/StoryPage2";
 import Testifiers from "./components/testifier/Testifiers";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
+import Testifiers2 from "./components/testifier/Testifiers2";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <StoryPage1 />
       <Testifiers />
       <StoryPage2 />
+      <Testifiers2 />
       <CallToAction />
       <Footer />
     </div>
