@@ -1,6 +1,65 @@
 .card {
   &__textbox {
     text-align: left;
+  margin-left: 5rem;
+    
+    &__textbox {
+      text-align: left;
+      width: 300px;
+    
+    }
+    &__round-img{
+      margin-top: 2rem;
+    }
+    &__users{
+      margin-top: 2rem;
+      font-family: "inter";
+      color: #474747;
+      font-weight: 600;
+      font-size: 2.4rem;
+    }
+    &__location {
+      display: block;
+      font-family: "inter";
+      color: #535353;
+      font-weight: 500;
+      font-size: 15px;
+      margin-top: 1rem;
+
+      &--card__title {
+        font-family: "inter";
+        display: inline-block;
+        color: #049A01;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        border-radius: 0.4rem;
+        padding: 0.4rem 0.8rem;
+        background-color: #EEF8FF;
+
+      }
+    }
+    &__post {
+      font-family: "inter";
+      color: #049A01;
+      display:inline-block;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      border-radius: 0.4rem;
+      padding: 0.4rem 0.8rem;
+      background-color: #EEF8FF;
+      margin-left: 2rem;
+    }
+    &__content {
+      margin: 3rem 0;
+      font-family: "inter";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 2.4rem;
+      letter-spacing: 0.02em;
+      vertical-align: top;
+
+    }
+    
   }
   &__round-img {
     margin-top: 2rem;
