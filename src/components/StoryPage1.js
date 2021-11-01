@@ -19,9 +19,9 @@ const StoryPage1 = () => {
           very good customer service, an all round great experience. I would
           definately be coming back!
         </p>
-        <a href="./share-your-story" className="story-pg-1__share share">
+        <button className="story-pg-1__share share">
           Share your own story!
-        </a>
+        </button>
         <img src={line} alt="line" className="vector" />
       </div>
     </div>

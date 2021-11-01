@@ -30,9 +30,11 @@
 
 .share {
   text-transform: uppercase;
-  text-decoration: none;
+  border: none;
+  background-color: rgba($color-white, 0);
   display: block;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 .title {
