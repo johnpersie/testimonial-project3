@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <ul className="footer__links">
-        <li>
+      <div className="footer__group">
+        <div className="footer__links-div">
           <ul className="footer__links-container">
             <li>
               <h4>Company</h4>
@@ -22,8 +22,8 @@ const Footer = () => {
               <a href="/#">Press & Media</a>
             </li>
           </ul>
-        </li>
-        <li>
+        </div>
+        <div className="footer__links-div">
           <ul className="footer__links-container">
             <li>
               <h4>Products</h4>
@@ -44,8 +44,9 @@ const Footer = () => {
               <a href="/#">Services</a>
             </li>
           </ul>
-        </li>
-        <li>
+        </div>
+
+        <div className="footer__links-div footer__link-career">
           <ul className="footer__links-container">
             <li>
               <h4>Careers</h4>
@@ -63,8 +64,9 @@ const Footer = () => {
               <a href="/#">Become an Affiliate</a>
             </li>
           </ul>
-        </li>
-        <li>
+        </div>
+
+        <div className="footer__links-div">
           <ul className="footer__links-container">
             <li>
               <h4>Get in touch</h4>
@@ -82,8 +84,9 @@ const Footer = () => {
               <a href="/#">Help/FAQs</a>
             </li>
           </ul>
-        </li>
-        <li>
+        </div>
+
+        <div className="footer__links-div">
           <ul className="footer__links-container">
             <li>
               <h4>Join our community</h4>
@@ -107,8 +110,8 @@ const Footer = () => {
               <a href="/#">Email Newsletter</a>
             </li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   );
 };
