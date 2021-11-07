@@ -1,0 +1,109 @@
+.card {
+  &__textbox {
+    text-align: left;
+
+    &__textbox {
+      text-align: left;
+    }
+    &__round-img {
+      margin-top: 2rem;
+    }
+    &__users {
+      margin-top: 2rem;
+      font-family: "inter";
+      color: #474747;
+      font-weight: 600;
+      font-size: 2.4rem;
+    }
+    &__location {
+      display: block;
+      font-family: "inter";
+      color: #535353;
+      font-weight: 500;
+      font-size: 15px;
+      margin-top: 1rem;
+    }
+    &__post {
+      font-family: "inter";
+      color: #049a01;
+      display: inline-block;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      border-radius: 0.4rem;
+      padding: 0.4rem 0.8rem;
+      background-color: #eef8ff;
+      margin-left: 2rem;
+    }
+    &__content {
+      margin: 3rem 0;
+      font-family: "inter";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 2.4rem;
+      letter-spacing: 0.02em;
+      vertical-align: top;
+    }
+  }
+  .card__title {
+    margin-top: 1.5rem;
+    font-family: "inter";
+    display: inline-block;
+    color: #049a01;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #eef8ff;
+  }
+  &__round-img {
+    margin-top: 2rem;
+  }
+  &__users {
+    margin-top: 2rem;
+    font-family: "inter";
+    color: #474747;
+    font-weight: 600;
+    font-size: 2.4rem;
+  }
+  &__location {
+    display: block;
+    font-family: "inter";
+    color: #535353;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 1rem;
+  }
+  &__post {
+    font-family: "inter";
+    color: #049a01;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #eef8ff;
+    margin-left: 2rem;
+  }
+  &__content {
+    margin: 3rem 0;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.4rem;
+    letter-spacing: 0.02em;
+    // vertical-align: top;
+  }
+}
+.colorTag {
+  background-color: #eef8ff;
+  color: #0d019a;
+}
+.col {
+  &__container {
+    margin: 8rem 8rem;
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 0 11.1rem;
+  }
+}
