@@ -1,6 +1,6 @@
 import "../src/sass/App.scss";
-import HeaderBar from "./components/HeaderBar";
-import Navbar from "./components/Navbar";
+// import HeaderBar from "./components/HeaderBar";
+// import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import StoryPage1 from "./components/StoryPage1";
 import StoryPage2 from "./components/StoryPage2";
@@ -12,8 +12,8 @@ import Testifiers2 from "./components/testifier/Testifiers2";
 function App() {
   return (
     <div className="App">
-      <HeaderBar />
-      <Navbar />
+      {/* <HeaderBar /> */}
+      {/* <Navbar /> */}
       <LandingPage />
       <StoryPage1 />
       <Testifiers />
