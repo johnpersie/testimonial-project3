@@ -4,6 +4,7 @@ import OurCoreValues from "./components/OurCoreValues";
 import LandingPage from "./components/LandingPage";
 import Footer from "./components/Footer";
 import Partners from "./components/Partners";
+import OurServices from "./components/OurServices";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LandingPage />
       <AboutUs />
       <OurCoreValues />
+      <OurServices />
       <Partners />
       <Footer />
     </div>

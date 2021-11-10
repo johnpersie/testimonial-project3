@@ -12,13 +12,24 @@ const LandingPage = () => {
         </div>
         <ul>
           <li>
-            <a href="/#">Home</a>
+            <a href="/home" className="header__home">
+              Home
+            </a>
           </li>
           <li>
-            <a href="/#">about us</a>
+            <a href="/about-us" className="header__about">
+              about us
+            </a>
           </li>
           <li>
-            <a href="/#">contact</a>
+            <a href="/our-services" className="header__services">
+              our services
+            </a>
+          </li>
+          <li>
+            <a href="/contact-us" className="header__contact">
+              contact us
+            </a>
           </li>
         </ul>
       </div>
