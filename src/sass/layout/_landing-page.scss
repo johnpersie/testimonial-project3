@@ -12,19 +12,26 @@
   background-position: center;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;
-
+  justify-content: space-between;
+  flex-direction: column;
+  // justify-content: center;
   color: white;
+
+  &__top-container {
+    margin: 0 auto;
+    max-width: 120rem;
+  }
 
   &__main-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10rem;
+    width: 100%;
   }
 
   &__heading {
-    width: 50.1rem;
+    width: 56.1rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 5rem;

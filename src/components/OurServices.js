@@ -21,21 +21,26 @@ const OurServices = () => {
         </div>
         <div className="services__list">
           <div className="services__item">
-            <p>Disco Franchising</p>
-          </div>
-          <div className="services__item">
-            <p>Electrical Projects (Medium & Large Scale Implementation)</p>
-          </div>
-          <div className="services__item">
-            <p>Metering Projects</p>
-          </div>
-          <div className="services__item">
             <p>
               Renewable Energy Solutions Implementation (Medium & Large Scale)
             </p>
           </div>
           <div className="services__item">
+            <p>
+              System Innovation with staff / Customer Application Configuration
+            </p>
+          </div>
+          <div className="services__item">
+            <p>Electrical Projects (Medium & Large Scale Implementation)</p>
+          </div>
+          <div className="services__item">
             <p>Disco Loss Reduction and Revenue Optimization</p>
+          </div>
+          <div className="services__item">
+            <p>Power Equipment Procurement & Supply</p>
+          </div>
+          <div className="services__item">
+            <p>Power Equipment Testing & Project Commissioning</p>
           </div>
           <div className="services__item">
             <p>Power Reliability Implementation</p>
@@ -44,22 +49,17 @@ const OurServices = () => {
             <p>Energy Audit / System Integration</p>
           </div>
           <div className="services__item">
-            <p>
-              System Innovation with staff / Customer Application Configuration
-            </p>
+            <p>Metering Projects</p>
+          </div>
+          <div className="services__item">
+            <p>Disco Franchising</p>
           </div>
           <div className="services__item">
             <p>Rural Electrification</p>
           </div>
           <div className="services__item">
-            <p>Power Equipment Procurement & Supply</p>
+            <p>Consultancy</p>
           </div>
-          <div className="services__item">
-            <p>Power Equipment Testing & Project Commissioning</p>
-          </div>
-          {/* <div className="services__item">
-            <p>Disco</p>
-          </div> */}
         </div>
       </div>
     </div>
