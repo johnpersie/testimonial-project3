@@ -4,14 +4,9 @@
       rgba($color-wblack-1, 0.9),
       rgba($color-wblack-1, 0.9)
     ),
-    //   background-image: linear-gradient(
-    //       to bottom,
-    //       rgba($color-wblue-1, 0.8),
-    //       rgba($color-wblue-1, 0.8)
-    //     ),
     url(../power9.jpg);
   background-attachment: fixed;
-  height: 80vh;
+  height: 70rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,36 +20,23 @@
     width: 30rem;
     display: block;
     text-align: center;
-    // background-color: black;
-    // border-radius: 10px;
   }
 
   &__cluster {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    // background-color: black;
     padding: 2rem;
+    max-width: 140rem;
   }
 
   &__writeup {
     color: white;
-    // color: black;
-    width: 28%;
-    // background-image: linear-gradient(
-    //   to bottom,
-    //   rgba(black, 0.6),
-    //   rgba(black, 0.6)
-    // );
+    width: 33%;
     padding: 1rem;
     border-radius: 0.5rem;
     transition: 0.5s;
     text-align: justify;
-
-    &:hover {
-      transform: translateX(0.3rem);
-      // transform: scale(1.1);
-    }
 
     & p {
       font-size: 1.8rem;
@@ -67,39 +49,26 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    width: 80rem;
+    width: 69rem;
     height: 40rem;
-    grid-gap: 2rem;
+    grid-gap: 1.5rem;
   }
   &__item {
-    // background-color: $color-wblue-1;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    // background-image: linear-gradient(
-    //   to bottom,
-    //   rgba($color-wblue-1, 0.5),
-    //   rgba($color-wblue-1, 0.5)
-    // );
-    // background-image: linear-gradient(
-    //   to bottom,
-    //   rgba($color-wblue-1, 0.9),
-    //   rgba($color-wblue-1, 0.9)
-    // );
     background-image: linear-gradient(
       to bottom,
       rgba($color-wblue-1, 0.6),
       rgba($color-wblue-1, 0.6)
     );
     border-radius: 0.5rem;
-    // box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.616);
     transition: 0.3s;
 
     &:hover {
-      //   transform: translateY(-0.3rem);
       transform: scale(1.1);
     }
   }

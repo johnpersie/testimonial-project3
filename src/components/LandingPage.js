@@ -44,13 +44,11 @@ const LandingPage = () => {
           </p>
         </div>
         <div className="landing-page__graphics-container">
-          {/* <div className="landing-page__img-container"> */}
           <img
             className="landing-page__testimonial-img-1"
             src={img1}
             alt="testimonial"
           />
-          {/* </div> */}
         </div>
       </div>
     </div>
