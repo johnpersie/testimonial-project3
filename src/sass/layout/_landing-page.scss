@@ -2,7 +2,6 @@
   width: 100%;
   height: 100vh;
   font-family: "Inter", sans-serif;
-  // margin: 0 auto;
   background-image: linear-gradient(
       to left,
       rgba(0, 0, 0, 0.219),
@@ -13,30 +12,28 @@
   background-position: center;
   background-attachment: fixed;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 
-  align-items: center;
-  // color: rgb(201, 238, 250);
   color: white;
 
   // @media only screen and (max-width: 815px) {
   //   flex-direction: column;
   // }
 
-  &__writeup-container {
-    // margin-left: 15rem;
-    //   @media only screen and (max-width: 1170px) {
-    //     justify-self: center;
-    //   }
-    //   @media only screen and (max-width: 815px) {
-    //     text-align: left;
-    //   }
-  }
+  // &__writeup-container {
+  // margin-left: 15rem;
+  //   @media only screen and (max-width: 1170px) {
+  //     justify-self: center;
+  //   }
+  //   @media only screen and (max-width: 815px) {
+  //     text-align: left;
+  //   }
+  // }
   &__main-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
+    margin-top: 10rem;
   }
 
   &__heading {
@@ -45,8 +42,6 @@
     font-weight: bold;
     font-size: 5rem;
     line-height: 6.5rem;
-    // letter-spacing: 0.02em;
-    // text-align: center;
 
     // @media only screen and (max-width: 1170px) {
     //   width: 40rem;
@@ -63,12 +58,10 @@
   &__here {
     margin-top: 1rem;
     width: 27.8rem;
-    // height: 6.2rem;
     font-family: inherit;
     font-size: 1.8rem;
     line-height: 3.4rem;
     letter-spacing: 0.02em;
-    // color: $color-dark-3;
 
     // @media only screen and (max-width: 1170px) {
     //   font-size: 1.4rem;
@@ -84,16 +77,6 @@
     // }
   }
 
-  // .landing-page__graphics-container {
-  //   width: 63.5rem;
-  //   height: 63.5rem;
-
-  //   // @media only screen and (max-width: 1170px) {
-  //   //   width: 50rem;
-  //   //   height: 50rem;
-  //   // }
-  // }
-
   &__img-container {
     width: 40rem;
     height: 40rem;
@@ -102,9 +85,7 @@
 
   &__testimonial-img-1 {
     width: 50rem;
-    // clip-path: polygon(25% 0%, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     border-radius: 50%;
-    border: 3px solid skyblue;
-    // align-self: flex-end;
+    box-shadow: 1px 1px 6px black;
   }
 }

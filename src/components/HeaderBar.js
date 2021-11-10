@@ -5,7 +5,7 @@ const HeaderBar = () => {
   return (
     <div className="header">
       <div className="header__imgdiv">
-        <img className="header__img" src={logo} alt="" />
+        <img className="header__logo" src={logo} alt="" />
       </div>
       <ul>
         <li>
