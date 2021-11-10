@@ -1,32 +1,65 @@
 .aboutUs {
-  width: 100%;
   font-family: "inter", sans-serif;
-  margin: 0 auto;
-  padding: 2rem 0;
+  margin: 4rem auto;
+}
+.row {
+  margin: 3rem auto;
+  width: 70%;
 }
 .aboutUs__textbox {
   margin: 0 auto;
-  width: 70%;
+  // width: 90%;
 }
-.grid {
-  display: grid;
+// .grid {
+//   display: flex;
+//   justify-content: center;
+
+// display: grid;
+// grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+// grid-gap: 0 5rem;
+// .card {
+//   // width: 40rem;
+//   // height: 50rem;
+//   // margin: 1rem;
+
+//   &--goal {
+//     background-color: rgba(167, 168, 173, 0.589);
+//     border-radius: 0.5rem;
+//     box-shadow: 0.1rem 0.7rem 1rem rgba(black, 0.5);
+//   }
+//   &--vision {
+//     border-radius: 0.5rem;
+//     background-color: #e5e5e5;
+//   }
+//   &--mission {
+//     border-radius: 0.5rem;
+//   }
+// }
+
+.row-3 {
+  margin: 2rem auto;
 }
+// .card1 {
+//   text-align: center;
+// }
 .aboutUs__textbox h3 {
+  text-align: center;
   display: block;
   justify-content: center;
   font-weight: 500;
   font-family: "inter";
-  font-size: 2rem;
+  font-size: 3rem;
   color: #000000;
 }
-.aboutUs__textbox h1 {
+.row h1 {
   display: block;
   font-size: 3rem;
   font-family: "inter";
   margin: 2rem 0;
   color: #100d5c;
 }
-.aboutUs__textbox p {
+.row p {
+  padding: 2rem;
   display: block;
   font-size: 2rem;
   letter-spacing: normal;
