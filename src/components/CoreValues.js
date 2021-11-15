@@ -1,12 +1,4 @@
 import React from "react";
-// import innovation from "../img/sprite.svg#innovation";
-// import integrity from "../img/integrity.png";
-// import professionalism from "../img/professionalism.svg";
-// import teamwork from "../img/teamwork.svg";
-// import innovation from "../img/innovation.svg";
-// import excellence from "../img/excellent.svg";
-// import accountability from "../img/accountability.svg";
-// import { ReactComponent as Logo } from "./logo.svg";
 
 const CoreValues = () => {
   return (
@@ -14,7 +6,6 @@ const CoreValues = () => {
       <div className="core-values__container">
         <h1 className="core-values__heading">Our Core Values</h1>
         <div className="core-values__professionalism tile">
-          {/* <img src={professionalism} alt="professionalism" /> */}
           <svg class="icon">
             <use xlinkHref="#professional"></use>
           </svg>
@@ -28,10 +19,6 @@ const CoreValues = () => {
           </p>
         </div>
         <div className="core-values__teamwork tile">
-          {/* <img src={teamwork} alt="teamwork" /> */}
-          {/* <svg class="icon">
-            <use xlinkHref={teamwork}></use>
-          </svg> */}
           <svg class="icon">
             <use xlinkHref="#teamwork"></use>
           </svg>
@@ -44,16 +31,12 @@ const CoreValues = () => {
           </p>
         </div>
         <div className="core-values__innovation tile">
-          {/* <img src={innovation} alt="innovation" /> */}
           <svg class="icon">
             <use xlinkHref="#innovation"></use>
           </svg>
-          {/* <svg class="icon">
-            <use xlinkHref={innovation}></use>
-          </svg> */}
           <h1>Innovation</h1>
           <p>
-            We thrive on creativity and ingenuity which makes us to stand out in
+            We thrive on creativity and ingenuity, this makes us stand out in
             our service delivery as power and energy is the bedrock of
             industrialization and being a dynamic field of endeavor and the
             sector being on a fast paced technological climate, innovative
@@ -62,7 +45,6 @@ const CoreValues = () => {
           </p>
         </div>
         <div className="core-values__excellence tile">
-          {/* <img src={excellence} alt="excellence" /> */}
           <svg class="icon">
             <use xlinkHref="#excellence"></use>
           </svg>
@@ -75,7 +57,6 @@ const CoreValues = () => {
         </div>
 
         <div className="core-values__accountability tile">
-          {/* <img src={accountability} alt="accountability" /> */}
           <svg class="icon">
             <use xlinkHref="#accountability"></use>
           </svg>
@@ -89,7 +70,6 @@ const CoreValues = () => {
           </p>
         </div>
         <div className="core-values__integrity tile">
-          {/* <img src={integrity} alt="integrity" /> */}
           <svg class="icon">
             <use xlinkHref="#integrity"></use>
           </svg>
