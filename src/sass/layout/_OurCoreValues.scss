@@ -9,6 +9,14 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  justify-content: center;
+
+  & h1 {
+    font-size: 3rem;
+    color: white;
+    padding-top: 6rem;
+    text-align: center;
+  }
 }
 .col-3 {
   color: aliceblue;
@@ -16,17 +24,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   grid-gap: 2rem 1rem;
-  // align-items: center;
 
-  //   display: flex;
-  //   flex-wrap: wrap;
-  //   justify-content: space-around;
-  //   align-items: flex-start;
-  // &__card {
-  //   width: 40rem;
-  //   height: 60rem;
-  //   margin: 2rem;
-  // }
   &__card {
     height: 45rem;
     border: 1px solid black;
@@ -45,13 +43,12 @@
     border: 1px solid black;
   }
   & h1 {
-    display: flex;
     font-size: 4rem;
     font-family: "inter";
     font-weight: 400;
     text-align: center;
     color: #ffff;
-    margin: 2rem 0;
+    padding: 2rem 0;
   }
   & p {
     font-size: 1.5rem;
@@ -63,15 +60,12 @@
   }
   & img {
     display: inline-block;
-    align-items: baseline;
     text-align: center;
     width: 15rem;
   }
 }
 
-.our-core-values {
-  margin: 0 auto;
+.image {
+  background-color: brown;
+  color: blue;
 }
-// .image {
-//   width: 10rem;
-// }
