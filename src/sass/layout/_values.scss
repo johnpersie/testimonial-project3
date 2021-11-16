@@ -5,13 +5,14 @@
   //   display: flex;
   //   justify-content: center;
   margin: 0 auto;
-  background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.63),
-      rgba(0, 0, 0, 0.644)
-    ),
-    url(../power13.jpg);
+  // background-image: linear-gradient(
+  //     to left,
+  //     rgba(0, 0, 0, 0.63),
+  //     rgba(0, 0, 0, 0.644)
+  //   ),
+  //   url(../power13.jpg);
   font-family: "Ubuntu", sans-serif;
+  background-color: black;
 
   &__container {
     width: 120rem;
@@ -47,7 +48,7 @@
   //   }
 }
 .tile {
-  background-color: #100d5cc2;
+  background-color: #0482cc;
   color: white;
   padding: 2rem 3rem 2rem 2rem;
   border-radius: 5px;
