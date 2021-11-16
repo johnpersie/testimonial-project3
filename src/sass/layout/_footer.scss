@@ -48,15 +48,6 @@
         width: 25rem;
         margin-bottom: 0.5rem;
 
-        & h4::after {
-          content: "";
-          border: 1px solid white;
-          width: 2rem;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-        }
-
         & a {
           text-decoration: none;
           color: $color-white;
