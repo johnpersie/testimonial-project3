@@ -1,8 +1,8 @@
 import React from "react";
-import tcn from "../img/partners-tcn.png";
-import eedc from "../img/partners-eedc.png";
-import nerc from "../img/partners-nerc.png";
-import phedc from "../img/partners-phedc.png";
+import tcn from "../../img/partners-tcn.png";
+import eedc from "../../img/partners-eedc.png";
+import nerc from "../../img/partners-nerc.png";
+import phedc from "../../img/partners-phedc.png";
 
 const Partners = () => {
   return (

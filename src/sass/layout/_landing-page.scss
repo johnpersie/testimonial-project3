@@ -11,14 +11,12 @@
       rgba(0, 0, 0, 0.534),
       rgba(0, 0, 0, 0.534)
     ),
-    url(../power1.jpeg);
+    url(../../img/power1.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   display: flex;
   justify-content: space-between;
-  // flex-direction: column;
-  // justify-content: center;
   color: white;
 
   &__main-container {
@@ -75,7 +73,7 @@
     width: 39%;
     height: 32%;
     transition: 0.5s ease-in-out;
-    background-color: royalblue;
+    // background-color: royalblue;
 
     &:hover {
       transform: scale(1.5);
