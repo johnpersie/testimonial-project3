@@ -1,80 +1,53 @@
 .landing-page {
   width: 100%;
-  height: 100vh;
-  font-family: "Inter", sans-serif;
+  height: 82rem;
+  // font-family: "Inter", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  // font-family: "Poppins", sans-serif;
+  // font-size: xx-large;
+
   background-image: linear-gradient(
       to left,
-      rgba(0, 0, 0, 0.219),
-      rgba(0, 0, 0, 0.308)
+      rgba(0, 0, 0, 0.534),
+      rgba(0, 0, 0, 0.534)
     ),
     url(../power1.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;
-
+  justify-content: space-between;
+  // flex-direction: column;
+  // justify-content: center;
   color: white;
 
-  // @media only screen and (max-width: 815px) {
-  //   flex-direction: column;
-  // }
-
-  // &__writeup-container {
-  // margin-left: 15rem;
-  //   @media only screen and (max-width: 1170px) {
-  //     justify-self: center;
-  //   }
-  //   @media only screen and (max-width: 815px) {
-  //     text-align: left;
-  //   }
-  // }
   &__main-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 10rem;
+    width: 100%;
+  }
+
+  &__writeup-container {
+    text-align: center;
   }
 
   &__heading {
-    width: 50.1rem;
+    width: 56.1rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 5rem;
     line-height: 6.5rem;
-
-    // @media only screen and (max-width: 1170px) {
-    //   width: 40rem;
-    //   font-size: 4rem;
-    //   line-height: 5rem;
-    // }
-    // @media only screen and (max-width: 815px) {
-    //   width: 32rem;
-    //   margin-top: 3rem;
-    //   line-height: 4rem;
-    // }
   }
 
   &__here {
     margin-top: 1rem;
-    width: 27.8rem;
+    width: 100%;
     font-family: inherit;
     font-size: 1.8rem;
     line-height: 3.4rem;
     letter-spacing: 0.02em;
-
-    // @media only screen and (max-width: 1170px) {
-    //   font-size: 1.4rem;
-    //   line-height: 2.1rem;
-    //   width: 38rem;
-    // }
-
-    // @media only screen and (max-width: 900px) {
-    //   width: 34rem;
-    // }
-    // @media only screen and (max-width: 815px) {
-    //   padding-top: 4rem;
-    // }
   }
 
   &__img-container {
@@ -87,5 +60,80 @@
     width: 50rem;
     border-radius: 50%;
     box-shadow: 1px 1px 6px black;
+  }
+}
+.graphics-container {
+  width: 50rem;
+  height: 50rem;
+  // background-color: cornflowerblue;
+  position: relative;
+  // transform: rotate(45deg);
+
+  &__hexagon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    position: absolute;
+    width: 39%;
+    height: 32%;
+    transition: 0.5s ease-in-out;
+    background-color: royalblue;
+
+    &:hover {
+      transform: scale(1.5);
+      z-index: 20;
+      // clip-path: none;
+    }
+
+    &--1 {
+      top: 34%;
+      left: 30.5%;
+      // @include absCenter;
+    }
+    &--2 {
+      top: 17%;
+    }
+    &--3 {
+      top: 17%;
+      right: 0;
+    }
+    &--4 {
+      left: 30.5%;
+      // transform: translateX(-50%);
+    }
+    &--5 {
+      left: 30.5%;
+      bottom: 0;
+      // transform: translateX(-50%);
+    }
+    &--6 {
+      bottom: 17%;
+    }
+    &--7 {
+      bottom: 17%;
+      right: 0;
+    }
+  }
+
+  &__img {
+    width: 120%;
+    &--1 {
+      width: 125%;
+    }
+    &--2 {
+      transform: translate(-2rem, 0rem);
+      width: 124%;
+    }
+    &--3 {
+      width: 110%;
+    }
+
+    &--4 {
+      transform: translate(-2rem, 0rem);
+      width: 123%;
+    }
+
+    &--5 {
+      transform: translate(-5rem, 0rem);
+      width: 128%;
+    }
   }
 }

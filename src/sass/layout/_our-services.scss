@@ -1,0 +1,83 @@
+.services {
+  background-image: linear-gradient(
+      to bottom,
+      rgba($color-wblack-1, 0.9),
+      rgba($color-wblack-1, 0.9)
+    ),
+    url(../power9.jpg);
+  background-attachment: fixed;
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 3rem;
+    width: 30rem;
+    display: block;
+    text-align: center;
+
+    & span a {
+      text-decoration: none;
+      color: transparent;
+      cursor: text;
+    }
+  }
+
+  &__cluster {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    max-width: 140rem;
+  }
+
+  &__writeup {
+    color: white;
+    width: 33%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    text-align: justify;
+
+    & p {
+      font-size: 1.8rem;
+      margin-top: 1rem;
+      line-height: 1.4;
+    }
+  }
+  &__list {
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    width: 69rem;
+    height: 40rem;
+    grid-gap: 1.5rem;
+  }
+  &__item {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $color-wblue-1;
+    // background-image: linear-gradient(
+    //   to bottom,
+    //   $color-wblue-1,
+    //   $color-wblue-1
+    // );
+    border-radius: 0.5rem;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+      background-color: white;
+      color: $color-wblue-1;
+    }
+  }
+}

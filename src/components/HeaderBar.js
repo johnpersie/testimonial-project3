@@ -7,7 +7,7 @@ const HeaderBar = () => {
       <div className="header__imgdiv">
         <img className="header__logo" src={logo} alt="" />
       </div>
-      <ul>
+      {/* <ul>
         <li>
           <a href="/#">Home</a>
         </li>
@@ -17,7 +17,7 @@ const HeaderBar = () => {
         <li>
           <a href="/#">contact</a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };

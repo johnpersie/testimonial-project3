@@ -1,29 +1,43 @@
 import React from "react";
+import logo from "../img/WhitewatersEngineeringLimited.png";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
-    <div className="navbar">
-      <ul>
-        <li>
-          <a href="/marketplace">marketplace</a>
-        </li>
-        <li>
-          <a href="/wholesale-center">wholesale center</a>
-        </li>
-        <li>
-          <a href="/seller-center">seller center</a>
-        </li>
-        <li>
-          <a href="/services">services</a>
-        </li>
-        <li>
-          <a href="/internships">internships</a>
-        </li>
-        <li>
-          <a href="/events">events</a>
-        </li>
-      </ul>
+    <div className="nav">
+      <div className="nav__main-container">
+        <div className="nav__logo-container">
+          <img className="nav__logo" src={logo} alt="" />
+          <p className="nav__logo-text">Whitewaters Engineering Limited</p>
+        </div>
+        <ul>
+          <li>
+            <a href="/home" className="nav__home">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/about-us" className="nav__about">
+              about us
+            </a>
+          </li>
+          <li>
+            <a
+              href="/our-services"
+              className="nav__services"
+              target="/our-services"
+            >
+              our services
+            </a>
+          </li>
+          <li>
+            <a href="/contact-us" className="nav__contact">
+              contact us
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
+
 export default Navbar;
