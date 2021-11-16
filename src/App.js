@@ -1,23 +1,22 @@
 import "../src/sass/App.scss";
-import AboutUs from "./components/AboutUs";
-import LandingPage from "./components/LandingPage";
 import Footer from "./components/Footer";
-import Partners from "./components/Partners";
-import OurServices from "./components/OurServices";
-import CoreValues from "./components/CoreValues";
 import Navbar from "./components/Navbar";
+import AboutUs from "./components/AboutUs";
+import Home from "./components/Home/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <LandingPage />
-      <AboutUs />
-      <CoreValues />
-      <OurServices />
-      <Partners />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about-us" element={<AboutUs />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
