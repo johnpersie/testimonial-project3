@@ -30,7 +30,11 @@ const LandingPage = () => {
               </a>
             </li>
             <li>
-              <a href="/our-services" className="header__services">
+              <a
+                href="/our-services"
+                className="header__services"
+                target="/our-services"
+              >
                 our services
               </a>
             </li>

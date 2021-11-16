@@ -3,7 +3,12 @@ import React from "react";
 const OurServices = () => {
   return (
     <div className="services">
-      <h2>Our Services</h2>
+      <h2>
+        <span>
+          <a href="localhost:3000/our-services">.</a>
+        </span>
+        Our Services
+      </h2>
       <div className="services__cluster">
         <div className="services__writeup">
           <p>
