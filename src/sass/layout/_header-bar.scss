@@ -1,23 +1,21 @@
-.header {
+.nav {
+  position: absolute;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 2rem 0;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  &__main-container {
+    display: flex;
+    align-items: center;
+    width: 120rem;
+  }
 
   &__logo-container {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
     width: 140rem;
-
-    // @media only screen and (max-width: 1200px) {
-    //   max-width: 120rem;
-    // }
-    // @media only screen and (max-width: 1440px) {
-    //   max-width: 144rem;
-    // }
   }
 
   &__logo {
