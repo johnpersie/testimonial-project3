@@ -22,19 +22,19 @@ const Navbar = () => {
             <li>
               {/* <a href="About-Us">About Us</a> */}
               <Link to="/about-us" className="nav__about">
-                about us
+                About Us
               </Link>
             </li>
             <li>
               {/* <a href="Services">Services</a> */}
               <Link to="/our-services" className="nav__services">
-                our services
+                Our Services
               </Link>
             </li>
             <li>
               {/* <a href="Contact">Contact</a> */}
               <Link to="/contact-us" className="nav__contact">
-                contact us
+                Contact Us
               </Link>
             </li>
           </ul>
