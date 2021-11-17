@@ -4,35 +4,45 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="nav">
-      <div className="nav__main-container">
-        <div className="nav__logo-container">
-          <img className="nav__logo" src={logo} alt="" />
-          <p className="nav__logo-text">Whitewaters Engineering Limited</p>
+    <div>
+      <header>
+        <div className="header-logo">
+          <img className="header-logo__img" src={logo} alt="" />
+          <p className="header-logo__text">Whitewaters Engineering Limited</p>
         </div>
-        <ul>
-          <li>
-            <Link to="/" className="nav__home">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about-us" className="nav__about">
-              about us
-            </Link>
-          </li>
-          <li>
-            <Link to="/our-services" className="nav__services">
-              our services
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact-us" className="nav__contact">
-              contact us
-            </Link>
-          </li>
-        </ul>
-      </div>
+        <input type="checkbox" id="nav-toggle" className="nav-toggle" />
+        <nav>
+          <ul>
+            <li>
+              {/* <a href="Home">Home</a> */}
+              <Link to="/" className="nav__home">
+                Home
+              </Link>
+            </li>
+            <li>
+              {/* <a href="About-Us">About Us</a> */}
+              <Link to="/about-us" className="nav__about">
+                about us
+              </Link>
+            </li>
+            <li>
+              {/* <a href="Services">Services</a> */}
+              <Link to="/our-services" className="nav__services">
+                our services
+              </Link>
+            </li>
+            <li>
+              {/* <a href="Contact">Contact</a> */}
+              <Link to="/contact-us" className="nav__contact">
+                contact us
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        <label htmlFor="nav-toggle" className="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
     </div>
   );
 };
