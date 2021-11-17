@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../img/WhitewatersEngineeringLimited.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,28 +12,24 @@ const Navbar = () => {
         </div>
         <ul>
           <li>
-            <a href="/home" className="nav__home">
+            <Link to="/" className="nav__home">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about-us" className="nav__about">
+            <Link to="/about-us" className="nav__about">
               about us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/our-services"
-              className="nav__services"
-              target="/our-services"
-            >
+            <Link to="/our-services" className="nav__services">
               our services
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/contact-us" className="nav__contact">
+            <Link to="/contact-us" className="nav__contact">
               contact us
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

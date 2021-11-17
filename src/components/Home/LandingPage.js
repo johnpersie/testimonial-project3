@@ -1,17 +1,15 @@
 import React from "react";
-import img1 from "../img/power5.jpeg";
-import hex7 from "../img/hex7.webp";
-import hex3 from "../img/hex3.jpg";
-import hex4 from "../img/hex4.jpg";
-import hex6 from "../img/hex6.jpg";
-import hex10 from "../img/hex10.jpg";
-// import hex8 from "../img/hex8.jpg";
-import hex11 from "../img/hex11.jpg";
+import img1 from "../../img/power5.jpeg";
+import hex7 from "../../img/hex7.webp";
+import hex3 from "../../img/hex3.jpg";
+import hex4 from "../../img/hex4.jpg";
+import hex6 from "../../img/hex6.jpg";
+import hex10 from "../../img/hex10.jpg";
+import hex11 from "../../img/hex11.jpg";
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      {/* <div className="landing-page__top-container"> */}
       <div className="landing-page__main-container">
         <div className="landing-page__writeup-container">
           <h1 className="landing-page__heading">
@@ -73,7 +71,6 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
     </div>
   );
 };
