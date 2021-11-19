@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AboutUs() {
   return (
@@ -27,9 +28,9 @@ function AboutUs() {
               engagements. Whitewaters Engineering Limited is also licensed by
               the Nigerian Electricity Management Services Agency (NEMSA).
             </p>
-            <a href="/AboutUs" className="btn btn-content">
+            <Link to="/about-us" id="about-us" className="btn btn-content">
               More About Us ⇾
-            </a>
+            </Link>
           </div>
         </div>
         <div className="aboutUs__img-container">
@@ -43,29 +44,6 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      {/* <h1>Goal</h1>
-      <p>
-        We are out to create a strong niche in the power and energy industrial
-        sector by providing a business ease though our S.M.A.R.T approach for
-        prospective and existing power and energy investors as well as providing
-        tailored power and energy solution services to various industry players
-        and easing the power and energy hurdles they face in the most efficient
-        and effective manner.
-      </p>
-      <h1>Mission</h1>
-      <p>
-        We are on a mission to provide first class power and energy solution
-        services targeted at promoting industrialization of the nation via easy
-        access to power and energy to our every individual client’s achievable
-        dream and desire through strong synergism with our sister partners.
-      </p>
-      <h1>Vision</h1>
-      <p>
-        Whitewater Engineering Limited vision is to be a one-stop topnotch power
-        and energy company that shall be most preferred by industries/businesses
-        seeking for a better and effective guidance on easy access, efficient
-        management and anything energy and power.
-      </p> */}
     </main>
   );
 }

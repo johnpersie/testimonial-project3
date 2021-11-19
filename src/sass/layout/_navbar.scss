@@ -2,10 +2,14 @@ header {
   margin: 0 auto;
   background: linear-gradient(90deg, #03228f 10%, #0e73e4);
   width: 100%;
-  text-align: center;
+  align-items: center;
   height: 9rem;
   // position: fixed;
   z-index: 100;
+}
+.header {
+  margin: 0 auto;
+  max-width: 144rem;
 }
 .header-logo {
   margin: 0;
@@ -100,7 +104,7 @@ nav a:hover {
   .nav-toggle-label {
     display: none;
   }
-  header {
+  .header {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 7fr) 1fr;
     .header-logo {

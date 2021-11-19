@@ -1,14 +1,14 @@
 import React from "react";
-import CoreValues from "./CoreValues";
 import LandingPage from "./LandingPage";
 import Partners from "./Partners";
 import OurServices from "./OurServices";
+import AboutUs from "./AboutUs";
 
 const Home = () => {
   return (
     <div>
       <LandingPage />
-      <CoreValues />
+      <AboutUs />
       <OurServices />
       <Partners />
     </div>
