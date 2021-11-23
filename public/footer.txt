@@ -1,3 +1,4 @@
+/////////////////// JSX //////////////////////
 import React from "react";
 
 const Footer = () => {
@@ -334,3 +335,92 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+//////////////////// SCSS /////////////////
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Livvic", sans-serif;
+  background-image: url(../../img/footer-bg.jpg);
+  color: white;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    @media only screen and (max-width: 942px) {
+      flex-wrap: wrap;
+      width: 80rem;
+    }
+  }
+
+  &__links-div {
+    display: flex;
+    flex-direction: column;
+
+    & h4 {
+      margin-bottom: 2.5rem;
+      margin-top: 5rem;
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 4rem;
+    }
+
+    & div {
+      width: 25rem;
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      line-height: 2.6rem;
+
+      & a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__media-icons {
+    list-style: none;
+    color: $color-white;
+
+    & a {
+      font-size: 1.4rem;
+
+      & i {
+        margin-right: 1rem;
+        background-color: $color-white;
+        color: #454545;
+        padding: 0.4rem 0 0.4rem 0.45rem;
+        border-radius: 50%;
+        width: 2.3rem;
+      }
+    }
+  }
+}
+.rights {
+  &__text-container {
+    background-color: black;
+  }
+
+  &__text {
+    color: white;
+  }
+}
