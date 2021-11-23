@@ -6,79 +6,110 @@ const CoreValues = () => {
       <div className="core-values__container">
         <h1 className="core-values__heading">Our Core Values</h1>
         <div className="core-values__professionalism tile">
-          <svg class="icon">
-            <use xlinkHref="#professional"></use>
-          </svg>
-          <h1>Professionalism</h1>
-          <p>
-            Whitewaters Engineering Limited invest in staff who are of refined
-            relevant academic and professional qualifications, knowledge and
-            experience in the power and energy sector as it is our duty to
-            perform to the highest standards of professionalism as dictated by
-            the local and International professional code of ethics.
-          </p>
+          <div className="tile__icon-back">
+            <svg class="icon">
+              <use xlinkHref="#professional"></use>
+            </svg>
+          </div>
+
+          <div className="core-values__text">
+            <h1>Professionalism</h1>
+            <br />
+            <p>
+              Whitewaters Engineering Limited invest in staff who are of refined
+              relevant academic and professional qualifications, knowledge and
+              experience in the power and energy sector as it is our duty to
+              perform to the highest standards of professionalism as dictated by
+              the local and International professional code of ethics.
+            </p>
+          </div>
         </div>
         <div className="core-values__teamwork tile">
-          <svg class="icon">
-            <use xlinkHref="#teamwork"></use>
-          </svg>
-          <h1>Teamwork</h1>
-          <p>
-            Our teamwork culture avails us the privilege of having competent
-            professionals who always come together with workable approach and
-            advice to deliver optimum solutions to our numerous client problems
-            and quires.
-          </p>
+          <div className="tile__icon-back">
+            <svg class="icon">
+              <use xlinkHref="#teamwork"></use>
+            </svg>
+          </div>
+          <div className="core-values__text">
+            <h1>Teamwork</h1>
+            <br />
+            <p>
+              Our teamwork culture avails us the privilege of having competent
+              professionals who always come together with workable approach and
+              advice to deliver optimum solutions to our numerous client
+              problems and quires.
+            </p>
+          </div>
         </div>
         <div className="core-values__innovation tile">
-          <svg class="icon">
-            <use xlinkHref="#innovation"></use>
-          </svg>
-          <h1>Innovation</h1>
-          <p>
-            We thrive on creativity and ingenuity, this makes us stand out in
-            our service delivery as power and energy is the bedrock of
-            industrialization and being a dynamic field of endeavor and the
-            sector being on a fast paced technological climate, innovative
-            ideas, concepts, and these processes are very essential to the
-            continued success and growth of Whitewaters Engineering Limited.
-          </p>
+          <div className="tile__icon-back">
+            <svg class="icon">
+              <use xlinkHref="#innovation"></use>
+            </svg>
+          </div>
+          <div className="core-values__text">
+            <h1>Innovation</h1>
+            <br />
+            <p>
+              We thrive on creativity and ingenuity, this makes us stand out in
+              our service delivery as power and energy is the bedrock of
+              industrialization and being a dynamic field of endeavor and the
+              sector being on a fast paced technological climate, innovative
+              ideas, concepts, and these processes are very essential to the
+              continued success and growth of Whitewaters Engineering Limited.
+            </p>
+          </div>
         </div>
         <div className="core-values__excellence tile">
-          <svg class="icon">
-            <use xlinkHref="#excellence"></use>
-          </svg>
-          <h1>Excellence</h1>
-          <p>
-            Our drive for professional excellence ensures that our clients
-            receive the finest quality of service as we pursue to provide
-            impeccable execution and delivery of our products and services.
-          </p>
+          <div className="tile__icon-back">
+            <svg class="icon">
+              <use xlinkHref="#excellence"></use>
+            </svg>
+          </div>
+          <div className="core-values__text">
+            <h1>Excellence</h1>
+            <br />
+            <p>
+              Our drive for professional excellence ensures that our clients
+              receive the finest quality of service as we pursue to provide
+              impeccable execution and delivery of our products and services.
+            </p>
+          </div>
         </div>
 
         <div className="core-values__accountability tile">
-          <svg class="icon">
-            <use xlinkHref="#accountability"></use>
-          </svg>
-          <h1>Accountability</h1>
-          <p>
-            At the core of accountability is reliability and personal
-            responsibility. We value the ability of our team and company to
-            honor our commitment to clients and each other. We take ownership of
-            our work and promptly refine any erring to the greatest extent
-            possible.
-          </p>
+          <div className="tile__icon-back">
+            <svg class="icon">
+              <use xlinkHref="#accountability"></use>
+            </svg>
+          </div>
+          <div className="core-values__text">
+            <h1>Accountability</h1>
+            <br />
+            <p>
+              At the core of accountability is reliability and personal
+              responsibility. We value the ability of our team and company to
+              honor our commitment to clients and each other. We take ownership
+              of our work and promptly refine any erring to the greatest extent
+              possible.
+            </p>
+          </div>
         </div>
         <div className="core-values__integrity tile">
-          <svg class="icon">
-            <use xlinkHref="#integrity"></use>
-          </svg>
-          <h1>Integrity</h1>
-          <p>
-            At Whitewaters Engineering Limited, we always strive to do what is
-            right for our clients, community and profession. Ethics, fairness,
-            honesty and integrity remains the cornerstone of our practice.
-          </p>
+          <div className="tile__icon-back">
+            <svg class="icon">
+              <use xlinkHref="#integrity"></use>
+            </svg>
+          </div>
+          <div className="core-values__text">
+            <h1>Integrity</h1>
+            <br />
+            <p>
+              At Whitewaters Engineering Limited, we always strive to do what is
+              right for our clients, community and profession. Ethics, fairness,
+              honesty and integrity remains the cornerstone of our practice.
+            </p>
+          </div>
         </div>
       </div>
       <div className="test">
