@@ -19,8 +19,8 @@ main {
     // margin: 10rem auto;
     text-align: center;
     max-width: 40rem;
-    color: orangered;
-    font-family: "poppins";
+    color: #212144;
+    font-family: "Poppins", sans-serif;
     font-size: 2rem;
     font-weight: 500;
     padding-top: 2rem;
@@ -33,7 +33,7 @@ main {
     display: block;
     width: 10rem;
     height: 3px;
-    background: orangered;
+    background: #212144;
     position: absolute;
     left: 0;
     top: 65%;
@@ -44,7 +44,7 @@ main {
     display: block;
     width: 10rem;
     height: 3px;
-    background: orangered;
+    background: #212144;
     position: absolute;
     right: 0;
     top: 65%;
@@ -58,7 +58,7 @@ main {
   & h1 {
     max-width: 47rem;
     font-size: 3rem;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     margin: 2.5rem 0;
   }
 
@@ -73,7 +73,7 @@ main {
       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.274);
     }
     & p {
-      font-family: "Inter";
+      font-family: "Poppins", sans-serif;
       font-size: 1.7rem;
       line-height: 1.7;
       font-weight: 400;

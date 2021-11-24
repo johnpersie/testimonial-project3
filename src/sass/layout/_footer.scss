@@ -10,7 +10,7 @@
   font-family: "Livvic", sans-serif;
   background-image: url(../../img/footer-bg.jpg);
   color: white;
-  max-width: 144rem;
+  // max-width: 144rem;
   margin: 0 auto;
 }
 
@@ -19,6 +19,7 @@
   display: flex;
 
   &__group {
+    max-width: 144rem;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -42,6 +43,22 @@
       font-size: 2.2rem;
       font-weight: 600;
       line-height: 4rem;
+      position: relative;
+    }
+    & h4::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: transform ease-in-out 250ms;
+      transform-origin: left;
+      bottom: -10px;
+      background: #fff;
+      width: 50px;
+      height: 2px;
+      display: block;
+    }
+    & h4:hover::before {
+      transform: scale(3, 1);
     }
 
     & div {
