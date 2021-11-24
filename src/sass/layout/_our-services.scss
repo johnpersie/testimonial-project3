@@ -6,7 +6,6 @@
     ),
     url(../../img/power9.jpg);
   background-attachment: fixed;
-  height: 70rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +14,7 @@
   & h2 {
     font-size: 3rem;
     color: white;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
     width: 30rem;
     display: block;
     text-align: center;
@@ -31,8 +30,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 2rem 6rem 2rem;
     max-width: 140rem;
+
+    @media only screen and (max-width: 900px) {
+      flex-direction: column;
+    }
+
+    @media only screen and (max-width: 750px) {
+      padding: 2rem 0 4rem 0;
+    }
   }
 
   &__writeup {
@@ -42,6 +49,12 @@
     border-radius: 0.5rem;
     transition: 0.5s;
     text-align: justify;
+    @media only screen and (max-width: 900px) {
+      width: 90%;
+    }
+    @media only screen and (max-width: 750px) {
+      width: 97%;
+    }
 
     & p {
       font-size: 1.8rem;
@@ -52,11 +65,28 @@
   &__list {
     color: white;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    width: 69rem;
-    height: 40rem;
+    grid-template-rows: repeat(3, minmax(7.9rem, 1fr));
+    grid-template-columns: repeat(4, minmax(11.8rem, 1fr));
+    width: 60%;
+    height: 40%;
     grid-gap: 1.5rem;
+
+    @media only screen and (max-width: 900px) {
+      width: 88%;
+    }
+    @media only screen and (max-width: 750px) {
+      width: 94%;
+    }
+    @media only screen and (max-width: 550px) {
+      grid-template-rows: repeat(4, minmax(7.9rem, 1fr));
+      grid-template-columns: repeat(3, minmax(11.8rem, 1fr));
+      width: 92%;
+    }
+    @media only screen and (max-width: 450px) {
+      grid-template-rows: repeat(6, minmax(7.9rem, 1fr));
+      grid-template-columns: repeat(2, minmax(11.8rem, 1fr));
+      width: 93%;
+    }
   }
   &__item {
     padding: 0.5rem;
@@ -66,11 +96,6 @@
     align-items: center;
     text-align: center;
     background-color: $color-wblue-1;
-    // background-image: linear-gradient(
-    //   to bottom,
-    //   $color-wblue-1,
-    //   $color-wblue-1
-    // );
     border-radius: 0.5rem;
     transition: 0.3s;
 
