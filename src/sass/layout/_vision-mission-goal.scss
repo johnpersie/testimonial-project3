@@ -1,0 +1,44 @@
+.vmg {
+  margin: 6rem 0;
+  position: relative;
+
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 144rem;
+    display: flex;
+    column-gap: 2rem;
+  }
+  &__content {
+    width: 80rem;
+    background-color: #f2f5f7;
+    // padding: 0 1rem;
+  }
+  & h1 {
+    color: #212144;
+    font-size: 2.5rem;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  & p {
+    font-size: 1.6rem;
+    font-family: "Segoe UI", sans-serif;
+  }
+}
+
+.image-card {
+  width: auto;
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+}
+.card1 {
+  background-image: url(../vision.jpg);
+}
+.card2 {
+  background-image: url(../mission.jpg);
+}
+.card3 {
+  background-image: url(../goal.jpg);
+}
