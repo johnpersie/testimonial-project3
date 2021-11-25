@@ -10,7 +10,7 @@ main {
 .aboutUs {
   margin: 2rem auto;
   width: 100%;
-  font-family: "inter";
+  font-family: "Livvic", sans-serif;
   display: flex;
   flex-wrap: wrap;
   padding: 4rem;
@@ -26,7 +26,7 @@ main {
       line-height: 26px;
       font-size: 2.2rem;
       font-weight: 500;
-      font-family: "Roboto";
+      font-family: "Livvic", sans-serif;
       color: rgb(41, 41, 133);
       margin-bottom: 2rem;
     }
@@ -39,7 +39,7 @@ main {
       margin-bottom: 2rem;
     }
     & p {
-      font-family: "Roboto";
+      ffont-family: "Livvic", sans-serif;
       font-size: 1.5rem;
       font-weight: 400;
       font-size: 1.6rem;
@@ -78,7 +78,7 @@ main {
   & p {
     justify-content: center;
     color: white;
-    font-family: "Roboto";
+    font-family: "Livvic", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
