@@ -15,11 +15,6 @@ const Partners = () => {
           alt="nerc logo"
         />
         <img
-          className="partners__tcn partners__logo"
-          src={tcn}
-          alt="tcn logo"
-        />
-        <img
           className="partners__eedc partners__logo"
           src={eedc}
           alt="eedc logo"
@@ -28,6 +23,11 @@ const Partners = () => {
           className="partners__phedc partners__logo"
           src={phedc}
           alt="phedc logo"
+        />
+        <img
+          className="partners__tcn partners__logo"
+          src={tcn}
+          alt="tcn logo"
         />
       </div>
     </div>
